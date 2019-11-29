@@ -16,6 +16,12 @@ class Class2 {
 	}
 }
 
+class Class3 {
+	public static void printClass3() {
+		System.out.println("This line is from Class3");
+	}
+}
+
 public class EclipseProject7 {
 	String language;
 	int projectNum;
@@ -44,5 +50,6 @@ public class EclipseProject7 {
 		System.out.println(gitProject.toString());
 		Class1.printClass1();
 		Class2.printClass2();
+		Class3.printClass3();
 	}
 }
